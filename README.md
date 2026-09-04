@@ -88,7 +88,7 @@ push to an existing one).
    git add .
    git commit -m "CCML Mark Checker web app"
    git branch -M main
-   git remote add origin https://github.com/<you>/ccml-mark-checker.git
+   git remote add origin https://github.com/NasrumSeron/ccml-mark-checker.git
    git push -u origin main
    ```
 3. **Enable Pages**: on GitHub, go to the repo's **Settings → Pages**.
@@ -97,7 +97,7 @@ push to an existing one).
 4. Wait a minute or two, then refresh that Settings → Pages screen — it
    will show your live URL, something like:
    ```
-   https://<you>.github.io/ccml-mark-checker/
+   https://NasrumSeron.github.io/ccml-mark-checker/
    ```
 5. **Share that link** with colleagues. It works in any modern desktop
    browser (Chrome, Edge, Firefox) — no install needed on their end either.
