@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CCML Mark Checker</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">CCML Mark Checker</div>
+    <button id="resetBtn" class="btn btn-ghost" title="Delete everything and start over">Reset</button>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <div id="modalRoot"></div>
+
+  <!-- Vendored libraries: pdf.js (PDF text extraction) and SheetJS (xlsx parsing).
+       Everything runs locally in the browser -- no file is ever uploaded anywhere. -->
+  <script src="vendor/pdf.min.js"></script>
+  <script src="vendor/xlsx.full.min.js"></script>
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
